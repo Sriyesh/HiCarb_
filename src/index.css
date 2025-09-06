@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Added custom breakpoint for extra small screens */
+@media (max-width: 375px) {
+  .xs\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
