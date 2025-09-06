@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import "./index.css"; // ensure this imports your Tailwind/global CSS
 import HicarbManufacturing from "./manufacturing/src/App-manufacturing.jsx";
-import HeatTreatment from "./heat-treatment/src/app"; // if you also want a second one
+import HeatTreatment from "./heat-treatment/src/App.jsx"; // if you also want a second one
 import Home from "./Home/home";
 /* ---------- Main App ---------- */
 export default function App() {
