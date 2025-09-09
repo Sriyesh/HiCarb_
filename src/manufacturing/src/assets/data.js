@@ -1,14 +1,13 @@
 import atmos from "../assets/atmos-furnaces.jpg";
 import batch from "../assets/batch-type.jpg";
 import bogie from "../assets/Bogie-Hearth-Furnace.jpg";
-import logo from "../assets/logo.png";
 import main from "../assets/main.jpg";
 import materialHandling from "../assets/Material-handling-systems.png";
 import mesh from "../assets/Mesh-belt-furnaces.jpg";
 import rotaryHearth from "../assets/Rotary Hearth Furnace.jpg";
 import rotaryRetort from "../assets/rotary-retort-furnace.jpg";
 import rxEndo from "../assets/RX-Endothermic-Generator2.jpg";
-
+import Comphrehensive from "../assets/Comphrehensive.png";
 
 export const PRODUCTS = [
   {
@@ -115,7 +114,7 @@ export const CAROUSEL_ITEMS = [
   {
     title: "Mesh Belt Furnace Line",
     description: "Continuous thermal processing for hardening, carburising and carbonitriding applications.",
-    image: `${mesh}`,
+    image: `${Comphrehensive}`,
   },
   {
     title: "Sealed Quench System",

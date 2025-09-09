@@ -2,7 +2,9 @@
 
 import { useEffect, useRef } from "react"
 import { Award, Microscope, TestTube, CheckCircle } from "lucide-react"
-import certificate from "../assets/Certification1.png"
+import cert3 from "../assets/cert3.jpg"
+import images from "../assets/images.png"
+import international from "../assets/international-accreditation-forum.png"
 
 const QualitySection = () => {
   const sectionRef = useRef(null)
@@ -111,13 +113,28 @@ const QualitySection = () => {
 
         {/* Testing Capabilities */}
         <div className="quality-item opacity-0 grid lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <img
-              src={certificate}
-              alt="Metallurgical Laboratory"
-              className="rounded-xl shadow-2xl hover:scale-105 transition-transform duration-500 w-full h-auto"
-            />
-          </div>
+  <div>
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+      {/* First two images */}
+      <img
+        src={cert3}
+        alt="certification logo"
+        className="rounded-xl shadow-2xl hover:scale-105 transition-transform duration-500 w-full h-48 object-contain bg-white p-2"
+      />
+      <img
+        src={images}
+        alt="certification logo"
+        className="rounded-xl shadow-2xl hover:scale-105 transition-transform duration-500 w-full h-48 object-contain bg-white p-2"
+      />
+
+      {/* Third image centered */}
+      <img
+        src={international}
+        alt="certification logo"
+        className="rounded-xl shadow-2xl hover:scale-105 transition-transform duration-500 w-full h-48 object-contain bg-white p-2 col-span-1 sm:col-span-2 mx-auto"
+      />
+    </div>
+  </div>  
           <div className="space-y-6">
             <div>
               <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4">Comprehensive Testing Services</h3>
