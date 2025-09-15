@@ -31,11 +31,11 @@ const Header = () => {
         <div className="container mx-auto px-4 lg:px-6 flex justify-between items-center">
           <div className="flex items-center space-x-100 text-slate-300">
             <a
-              href="tel:+919899997386"
+              href="tel:+916369472483"
               className="flex items-center space-x-2 hover:underline"
             >
               <Phone className="h-4 w-4" />
-              <span>call us at +91 98999 97386</span>
+              <span>call us at +91 6369472483</span>
             </a>
             <a
               href="mailto:Info@hicarbe.com?subject=Inquiry&body=Hello%20Hicarb%20Team,"

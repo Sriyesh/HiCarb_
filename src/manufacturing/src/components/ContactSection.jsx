@@ -30,18 +30,8 @@ export default function ContactSection() {
           <h3 className="font-semibold text-sky-700">Call</h3>
           <ul className="mt-2 space-y-1 text-white">
             <li>
-              <a href="tel:+919899997386" className="hover:text-sky-700">
-                +91 98999 97386 (Sebastain Stanly)
-              </a>
-            </li>
-            <li>
-              <a href="tel:+919884222689" className="hover:text-sky-700">
-                +91 98842 22689 (Sajith Kumar PN)
-              </a>
-            </li>
-            <li>
-              <a href="tel:+919495276500" className="hover:text-sky-700">
-                +91 94952 76500 (Saji Sisupalan)
+              <a href="tel:+916369472483" className="hover:text-sky-700">
+                +91 6369472483
               </a>
             </li>
           </ul>

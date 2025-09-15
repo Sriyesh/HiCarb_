@@ -8,6 +8,7 @@ import QualitySection from "./components/QualitySection"
 import CustomersCarousel from "./components/CustomersCarousel"
 import ContactSection from "./components/ContactSection"
 import Footer from "./components/Footer"
+import WhatsAppButton from "./components/WhatsAppButton"
 import "./App.css"
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <QualitySection />
       <CustomersCarousel />
       <ContactSection />
+      <WhatsAppButton />
       <Footer />
     </div>
   )

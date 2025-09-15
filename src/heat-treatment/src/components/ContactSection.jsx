@@ -57,7 +57,7 @@ const ContactSection = () => {
             <Phone className="h-12 w-12 text-orange-500 mx-auto mb-4" />
             <h3 className="text-white font-semibold text-lg mb-3">Phone</h3>
             <p className="text-slate-300 mb-2">Main Office</p>
-            <p className="text-orange-400 font-semibold">+91 98999 97386</p>
+            <p className="text-orange-400 font-semibold">+91 6369472483</p>
           </div>
 
           <div className="contact-card opacity-0 bg-slate-900/50 border border-slate-700 text-center hover:border-orange-500/50 transition-all duration-300 hover:scale-105 rounded-lg p-6">
@@ -75,7 +75,7 @@ const ContactSection = () => {
           </div>
         </div>
 
-        {/* Management Team */}
+        {/* Management Team
         <div className="contact-card opacity-0 mb-16">
           <h3 className="text-2xl font-bold text-white text-center mb-8">Management Team</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -91,7 +91,7 @@ const ContactSection = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Facility Details */}
         <div className="contact-card opacity-0 mb-16">
