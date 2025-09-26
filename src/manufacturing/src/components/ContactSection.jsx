@@ -25,6 +25,15 @@ export default function ContactSection() {
           <a href="mailto:hicarbengineeringhosur@gmail.com" className="mt-2 block text-white hover:text-sky-700">
             hicarbengineeringhosur@gmail.com
           </a>
+          <a href="mailto:Info@hicarbe.com" className="mt-2 block text-white hover:text-sky-700">
+            Info@hicarbe.com
+          </a>
+          <a href="mailto:pradheep@hicarbe.com" className="mt-2 block text-white hover:text-sky-700">
+            pradheep@hicarbe.com
+          </a>
+          <a href="mailto:Support@hicarbe.com" className="mt-2 block text-white hover:text-sky-700">
+            Support@hicarbe.com
+          </a>
         </div>
         <div className="rounded-lg border border-slate-200 p-5">
           <h3 className="font-semibold text-sky-700">Call</h3>

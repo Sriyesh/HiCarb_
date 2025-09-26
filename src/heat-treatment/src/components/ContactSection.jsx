@@ -64,7 +64,9 @@ const ContactSection = () => {
             <Mail className="h-12 w-12 text-orange-500 mx-auto mb-4" />
             <h3 className="text-white font-semibold text-lg mb-3">Email</h3>
             <p className="text-slate-300 mb-2">Business Inquiries</p>
-            <p className="text-orange-400 font-semibold">hicarbht@gmail.com</p>
+            <p className="text-orange-400 font-semibold">Info@hicarbe.com</p>
+            <p className="text-orange-400 font-semibold">pradheep@hicarbe.com</p>
+            <p className="text-orange-400 font-semibold">Support@hicarbe.com</p>
           </div>
 
           <div className="contact-card opacity-0 bg-slate-900/50 border border-slate-700 text-center hover:border-orange-500/50 transition-all duration-300 hover:scale-105 rounded-lg p-6">
